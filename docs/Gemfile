@@ -15,6 +15,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
+  gem "faraday-retry"
 end
 
 # Windows (sempre ele!) não tem arquivos "zoneinfo",
