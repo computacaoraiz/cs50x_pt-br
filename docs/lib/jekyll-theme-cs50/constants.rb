@@ -20,7 +20,7 @@ module CS50
         "year" => "numeric"
       },
       "locale" => "en",
-      "tz" => "America/New_York"
+      "tz" => "America/New_York",
     },
     "exclude" => [
       "Gemfile",

@@ -1,3 +1,10 @@
+# Configurações básicas:
+cs50:
+  title: Esta é a CS50
+  description: xxx
+  tz: America/Sao_Paulo
+  locale: pt-br
+
 defaults:
   -
     scope:
