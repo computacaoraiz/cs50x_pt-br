@@ -1,6 +1,8 @@
 ---
-title: CS50x 2023
 layout: page
+title: Home
 ---
 
-Olá, mundo!
+Teste simples de inclusão de vídeo:
+
+{% video https://www.youtube.com/watch?v=HM1Zb3xmvMc %}

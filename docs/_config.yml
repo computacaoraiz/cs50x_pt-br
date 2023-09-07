@@ -1,11 +1,79 @@
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: "page"
+##
+## Configurações globais do site:
+## 
 
-sass:
-  load_paths:
-    - _sass
-    - _sass/node_modules
+# Título do site:
+title: CS50x em Portugês!
+
+# E-mail do responsável:
+email: abrantesasf@uvv.br
+
+# Descrição (">-" ignora os newlines):
+description: >-
+  Informações sobre as disciplinas e recursos para alunos e professores
+  da Universidade Vila Velha (UVV).
+
+# URL padrão do site
+url: "https://cs50x.computacaoraiz.com.br" # URL padrão do site
+
+# O site começa em um subpath da URL, por exemplo, /blog? se o site começa
+# na URL padrão, deixe em branco.
+baseurl: ""
+
+# Linguagem padrão para o conteúdo do site:
+lang: "pt-br"
+
+# Google Analytics
+#ga_tracking: ""
+
+# Redes sociais:
+twitter_username: "uvv-computacao"
+github_username: "uvv-computacao"
+
+
+##
+## Configurações para o tema:
+##
+cs50:
+  title: Harvard CS50x em Português
+  locale: pt-BR
+  tz: America/Sao_Paulo
+  description: Introdução à Ciência da Computação
+  alert: warning dismissible
+
+
+##
+## Coleções para os dados do site
+##
+
+
+
+##
+## Configurações para o build:
+##
+
+# Compressão de HTML:
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+
+# Plugins a serem utilizados:
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Engine de processamento:
+kramdown:
+  input: Kramdown
+  syntax_highlighter: coderay
+
+# O que excluir do build (se diretório, usar a / final):
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - _config.yml
