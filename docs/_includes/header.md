@@ -1,3 +1,3 @@
 # [{{ site.cs50.title }}](/)
 
-## Introdução à Ciência da Computação
+## Curso baseado e adaptado da disciplina [Harvard CS50x](https://cs50.harvard.edu/x/)
