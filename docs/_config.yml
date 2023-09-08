@@ -3,18 +3,18 @@
 ## 
 
 # Título do site:
-title: CS50x em Portugês!
+title: CR6.100B - adaptação da Harvard CS50 para os alunos brasileiros!
 
 # E-mail do responsável:
 email: abrantesasf@uvv.br
 
 # Descrição (">-" ignora os newlines):
 description: >-
-  Informações sobre as disciplinas e recursos para alunos e professores
-  da Universidade Vila Velha (UVV).
+  Disciplina de introdução à Ciência da Computação, para estudantes brasileiros,
+  adaptada da disciplina Harvard CS50x.
 
 # URL padrão do site
-url: "https://cs50x.computacaoraiz.com.br" # URL padrão do site
+url: "https://cr6100b.computacaoraiz.com.br" # URL padrão do site
 
 # O site começa em um subpath da URL, por exemplo, /blog? se o site começa
 # na URL padrão, deixe em branco.
@@ -27,18 +27,18 @@ lang: "pt-br"
 #ga_tracking: ""
 
 # Redes sociais:
-twitter_username: "uvv-computacao"
-github_username: "uvv-computacao"
+twitter_username: "computacaoraiz"
+github_username: "computacaoraiz"
 
 
 ##
 ## Configurações para o tema:
 ##
 cs50:
-  title: Harvard CS50x em Português
+  title: CR6.100B - Introdução à Ciência da Computação
   locale: pt-BR
   tz: America/Sao_Paulo
-  description: Introdução à Ciência da Computação
+  description: Disciplina de introdução à Ciência da Computação, para estudantes brasileiros, adaptada da Harvard CS50x.
   alert: warning dismissible
 
 
